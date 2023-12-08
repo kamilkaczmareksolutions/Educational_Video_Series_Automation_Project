@@ -182,7 +182,7 @@ This project presents a comprehensive system for automating the creation of an e
   - Only nouns are to be used, and each keyword must be unique and directly related to the topic.
   - Avoid generic or non-topic-related keywords such as "Introduction" or "Conclusion."
 
-!['Keywords Creation' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/14aa34c9-95ba-4ea5-a5f4-b4c3cfbdd390)
+!['Keywords Creation' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/c5b4d6ff-540f-4476-aace-da148390b3b7)
 
 ### 09_creating_prompts_artworks.py Script
 - **Purpose**: Automates the generation of illustration prompts based on keywords.

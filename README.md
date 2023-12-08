@@ -2,7 +2,7 @@
 
 ![Project Workflow Diagram](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/b65897b5-5658-476c-9665-2589f8520979)
 
-*Figure: High-level workflow diagram of the project.*
+*Figure: Workflow diagram of the project.*
 
 ## Quick Overview
 This repository contains a project designed to automate the creation of an educational video series. It integrates custom GPT models, Python scripts, and AI tools like DALL·E to develop a comprehensive understanding of complex topics.

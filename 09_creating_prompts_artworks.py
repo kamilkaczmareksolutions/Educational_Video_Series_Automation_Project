@@ -4,12 +4,11 @@
 
 # Variables for the illustration prompts
 variables = [
-    "Mechanics", "Overview", "Importance", "Framework", "Propagation", 
-    "Matter", "Atoms", "Alteration", "Laws", "Units", 
-    "Navigation", "Evolution", "Precision", "Gravity", "Kilograms", 
-    "Acceleration", "Motion", "Kinematics", "Dynamics", "Phenomena", 
-    "Galilean", "Foundation", "Concepts", "Interaction", "Summary", 
-    "Discussion", "Distance", "Time", "Mass", "Force"
+    "Observation", "Overview", "Fundamentals", "Sensory", "Details", "Differentiation", 
+    "Importance", "Methodology", "Perception", "Data", "Analysis", "Uniqueness", "Sight", 
+    "Touch", "Smell", "Hearing", "Taste", "Color", "Texture", "Chemistry", "Techniques", 
+    "Attention", "Presence", "Tools", "Journaling", "Senses", "Features", "Contrast", 
+    "Patterns", "Discovery"
 ]
 
 # Color for the prompts

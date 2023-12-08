@@ -17,7 +17,7 @@ video = False
 
 # Source URLs (set the appropriate URL based on the download type)
 youtube_channel_url = "https://www.youtube.com/channel/CHANNEL_ID"  # Replace CHANNEL_ID with the actual channel ID
-playlist_url = "https://www.youtube.com/playlist?list=PLgQay90CAOBjq6wIYyjP18pgDb5conXmR"  # Replace PLAYLIST_ID with the actual playlist ID
+playlist_url = "https://www.youtube.com/playlist?list=PLgQay90CAOBgb_-DIblsbGs1uZPGl-dw5"  # Replace PLAYLIST_ID with the actual playlist ID
 video_url = "https://www.youtube.com/watch?v=2Zq8jRqOMeg"  # Replace with the actual video URL
 
 # Directory Paths (change these paths as needed)
