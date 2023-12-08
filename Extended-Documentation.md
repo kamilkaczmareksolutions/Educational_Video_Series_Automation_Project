@@ -20,13 +20,15 @@ This project presents a comprehensive system for automating the creation of an e
   - **Building a Bigger Picture**: Each visualization idea is part of a coherent series that builds upon previous concepts, forming an integrated understanding of the broader subject matter.
   - **Interlinking Concepts**: Visualizations link new queries to previously discussed concepts, demonstrating how each new concept fits into the larger structure. This approach fosters a building-block style of learning.
 
-!['Foundational Guide' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/755fa8a4-7cd3-4619-a866-2ac5fb5cc5db)
+#### 'Foundational Guide' Custom GPT
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/755fa8a4-7cd3-4619-a866-2ac5fb5cc5db" width="500">
 
 ### Whole Chain Document
 - **Description**: A structured document that outlines a series of educational topics in a sequential manner.
 - **Purpose**: Serves as the framework for the educational content, with each topic building upon the previous ones to gradually introduce more complex concepts.
 
-![Whole Chain Document](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/bf68fe26-cc82-4c83-9e21-149b988be789)
+#### Whole Chain Document
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/bf68fe26-cc82-4c83-9e21-149b988be789" width="500">
 
 ### 'Research Questions' Custom GPT
 - **Role**: Specifically designed to generate research questions from the content of the "Whole Chain" document.
