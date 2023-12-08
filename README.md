@@ -53,10 +53,10 @@ git clone [repository URL]
 ## Screenshots
 
 #### Initial Input to 'Foundational Guide' Custom GPT
-<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/5d82b344-8a13-427d-b206-667155651f4a" width="500">
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/87dd1301-ea44-4216-960f-b889557e93c6" width="500">
 
 #### 'Presentation Logic' Step Screenshot
-<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/8b4838a5-cfde-4b35-9384-6aee529b31af" width="700">
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/8f766c24-2d66-46cb-9a78-812cd32f18c5" width="700">
 
 #### Final Presentation Slide
 <img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/e3429e6d-78b5-43d2-9a8c-30085aa77cbe" width="700">

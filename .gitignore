@@ -1,4 +1,5 @@
 # Custom directories to exclude
+misc
 artworks/Basic_physical_quantities/
 artworks/Measurements/
 artworks/Observations/

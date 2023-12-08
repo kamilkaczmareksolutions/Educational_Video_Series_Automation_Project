@@ -22,7 +22,7 @@ This project presents a comprehensive system for automating the creation of an e
   - **Interlinking Concepts**: Visualizations link new queries to previously discussed concepts, demonstrating how each new concept fits into the larger structure. This approach fosters a building-block style of learning.
 
 #### 'Foundational Guide' Custom GPT
-<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/755fa8a4-7cd3-4619-a866-2ac5fb5cc5db" width="500">
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/f545acf4-21ea-4fee-b47b-690767a9340d" width="500">
 
 ### Whole Chain Document
 - **Description**: A structured document that outlines a series of educational topics in a sequential manner.
