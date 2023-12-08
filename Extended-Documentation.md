@@ -3,7 +3,7 @@
 ## Introduction
 This project presents a comprehensive system for automating the creation of an educational video series. Utilizing custom GPT models and YouTube content, it's designed to build a layered understanding of complex subjects, starting from foundational concepts. The project comprises several interconnected components, each contributing to the creation of a sequential, progressive learning experience.
 
-![Project Workflow Diagram](path/to/diagram.png)
+![Project Workflow Diagram](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/2321a2a6-a149-4c32-b4b0-2070547365a1)
 
 ## Components
 
@@ -20,13 +20,13 @@ This project presents a comprehensive system for automating the creation of an e
   - **Building a Bigger Picture**: Each visualization idea is part of a coherent series that builds upon previous concepts, forming an integrated understanding of the broader subject matter.
   - **Interlinking Concepts**: Visualizations link new queries to previously discussed concepts, demonstrating how each new concept fits into the larger structure. This approach fosters a building-block style of learning.
 
-!['Foundational Guide' Custom GPT](path/to/foundational_guide_visualization.png)
+!['Foundational Guide' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/755fa8a4-7cd3-4619-a866-2ac5fb5cc5db)
 
 ### Whole Chain Document
 - **Description**: A structured document that outlines a series of educational topics in a sequential manner.
 - **Purpose**: Serves as the framework for the educational content, with each topic building upon the previous ones to gradually introduce more complex concepts.
 
-![Whole Chain Document](path/to/whole_chain_visualization.png)
+![Whole Chain Document](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/bf68fe26-cc82-4c83-9e21-149b988be789)
 
 ### 'Research Questions' Custom GPT
 - **Role**: Specifically designed to generate research questions from the content of the "Whole Chain" document.
@@ -42,13 +42,13 @@ This project presents a comprehensive system for automating the creation of an e
   - Generates research questions that are relevant, insightful, and directly address the topic at hand.
   - Ensures that the questions formed are in line with the overall progression and goals of the educational series.
 
-!['Research Questions' Custom GPT](path/to/research_questions_visualization.png)
+!['Research Questions' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/691224ec-81f0-4d9a-b7ec-0495893eb866)
 
 ### YouTube Research and Playlist Creation 
 - **Process**: Involves researching answers to the generated questions on YouTube.
 - **Outcome**: Compilation of relevant videos into a playlist, which serves as the primary source for the content in the educational videos.
 
-![Playlist Creation](path/to/whole_chain_visualization.png)
+![Playlist Creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/b1b32a2b-7731-474b-9da4-96b8cf228b67)
 
 ### 01_download_and_transcribe.py Script - shoutout [Const-me](https://github.com/Const-me)
 - **Purpose**: Automates the process of downloading YouTube videos, extracting audio, splitting it into chunks, and transcribing the content.
@@ -70,7 +70,7 @@ This project presents a comprehensive system for automating the creation of an e
   - `create_video_url_mappings`: Creates mappings of video URLs for each playlist.
 - **Comments**: Include user configurations for download types, source URLs, directory paths, YouTube API key file, and audio chunk length settings.
 
-![Download and Transcribe](path/to/whole_chain_visualization.png)
+![Download and Transcribe](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/23fa4c01-483e-436f-ad43-a5c2942c3a9e)
 
 ### 02_clean_titles_and_other_things.py Script
 - **Purpose**: Cleans and organizes the transcript data.
@@ -79,15 +79,11 @@ This project presents a comprehensive system for automating the creation of an e
   - `rename_files_in_directory`: Renames files in a directory for consistency and ease of access.
 - **Comments**: Include user configuration for directory paths and the process for reading problematic characters and renaming files.
 
-![Titles Cleaning](path/to/whole_chain_visualization.png)
-
 ### 03_clear_timestamps.py Script
 - **Purpose**: Removes timestamps and unnecessary content from the transcripts, making them cleaner and more readable.
 - **Function**:
   - `remove_timestamps_and_parentheses`: Removes timestamps and content within parentheses or brackets.
 - **Comments**: User configuration for specifying the directory to be processed.
-
-![Timestamps Cleaning](path/to/whole_chain_visualization.png)
 
 ### 04_create_sprs.py (Sparse Priming Representations) Script - shoutout [daveshap](https://github.com/daveshap)
 - **Purpose**: Creates SPRs (Sparse Priming Representations) for advanced NLP tasks.
@@ -95,7 +91,7 @@ This project presents a comprehensive system for automating the creation of an e
   - `save_file`, `open_file`, `extract_date_from_filename`, `chatbot`, `split_text`, `use_chatgpt`: Various functions for processing text and interacting with the OpenAI model.
 - **Comments**: Configuration for file paths, OpenAI API key, model settings, and process descriptions for creating SPRs.
 
-![SPR Creation](path/to/whole_chain_visualization.png)
+![SPR Creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/7616bdf0-31a6-4d84-8d25-fcd7e4269d8d)
 
 ### 05_clean_sprs.py Script
 - **Purpose**: Cleans the generated Sparse Priming Representations (SPRs) for clarity and consistency.
@@ -104,15 +100,13 @@ This project presents a comprehensive system for automating the creation of an e
   - `process_files`: Processes all files in the specified source directory, ensuring the destination directory exists and is organized.
 - **Comments**: User configuration includes directory paths, and the script details the process of cleaning and organizing SPRs.
 
-![SPR Cleaning](path/to/whole_chain_visualization.png)
-
 ### 06_mix_and_merge_sprs.py Script
 - **Purpose**: Combines and mixes all SPRs into a single, consolidated file.
 - **Function**:
   - `merge_and_shuffle_txt_files`: Merges .txt files from a specified directory, shuffles the sentences for variety, and writes the shuffled content to an output file. Ensures the output directory exists and handles empty lines appropriately.
 - **Comments**: User configuration for the directory containing .txt files, the output file name, and the path for the merged file.
 
-![SPR Merging](path/to/whole_chain_visualization.png)
+![SPR Merging](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/a383e5d2-351e-45a5-b39d-a4b6555f6748)
 
 ### 'Presentation Logic' Custom GPT
 - **Role**: Specialized in creating PowerPoint presentations tailored to specific educational topics outlined in the "Whole Chain" document.
@@ -132,7 +126,7 @@ This project presents a comprehensive system for automating the creation of an e
 - **Purpose and Goals**:
   - The aim is to create a clear, engaging, and informative presentation that directly addresses the CURRENT TOPIC (Priority 5), while also indirectly preparing the ground for NEXT TOPIC (Priority 4) and LAST TOPIC (Priority 3). This methodical approach aligns with the WHOLE CHAIN roadmap (Priority 2), ensuring that each presentation is a step towards the final educational goal.
 
-!['Presentation Logic' Custom GPT](path/to/foundational_guide_visualization.png)
+!['Presentation Logic' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/397d52a9-2444-4ffb-a02d-653af1767d8a)
 
 ### 'Matching Transcripts' Custom GPT
 - **Role**: Specialized in matching quotes from the "Presentation Logic" file with corresponding content in the transcripts.
@@ -150,7 +144,7 @@ This project presents a comprehensive system for automating the creation of an e
 - **Purpose and Goals**:
   - The aim is to create a rich and nuanced connection between the quotes and the transcripts, enhancing the depth and relevance of the educational content. This process contributes significantly to the ultimate goal of fulfilling the "WHOLE CHAIN" roadmap, ensuring that each matched segment aligns with the broader educational objectives of the project.
 
-!['Matching Transcript' Custom GPT](path/to/foundational_guide_visualization.png)
+!['Matching Transcript' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/da8e59c1-b36c-454f-b6a5-c1854e9ad225)
 
 ### 07_exact_timestamps.py Script
 - **Purpose**: Extracts and processes exact timestamps from transcripts and matched quotes to create a structured timeline.
@@ -162,7 +156,7 @@ This project presents a comprehensive system for automating the creation of an e
   - User configuration for directory paths, zip file name, matched quotes file, and output file name.
   - Includes regex patterns for handling various timestamp formats, ensuring accurate extraction.
 
-![Timeline creation](path/to/whole_chain_visualization.png)
+![Timeline creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/a87bfbbd-8022-4183-82d6-e3af89a789fd)
 
 ### 08_create_sources.py Script
 - **Purpose**: Generates source references by matching video titles with corresponding content and timestamps.
@@ -175,7 +169,7 @@ This project presents a comprehensive system for automating the creation of an e
   - Implements a combined scoring system based on similarity and length difference to improve the matching accuracy.
   - Reads and processes video URL mapping file and handles titles with special characters.
 
-![Sources creation](path/to/whole_chain_visualization.png)
+![Sources creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/307d8a4a-c7d1-48d4-86ba-28fc3af3e9a1)
 
 ### 'Keywords Creation' Custom GPT
 - **Role**: Generates a list of unique keywords based on the content of a presentation logic file.
@@ -188,7 +182,7 @@ This project presents a comprehensive system for automating the creation of an e
   - Only nouns are to be used, and each keyword must be unique and directly related to the topic.
   - Avoid generic or non-topic-related keywords such as "Introduction" or "Conclusion."
 
-!['Keywords Creation' Custom GPT](path/to/foundational_guide_visualization.png)
+!['Keywords Creation' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/14aa34c9-95ba-4ea5-a5f4-b4c3cfbdd390)
 
 ### 09_creating_prompts_artworks.py Script
 - **Purpose**: Automates the generation of illustration prompts based on keywords.
@@ -198,7 +192,7 @@ This project presents a comprehensive system for automating the creation of an e
   - User configuration includes variables for illustration prompts, desired colors, and the output file path.
   - The script focuses on creating engaging and relevant prompts for artwork creation.
 
-![Prompts for DALL·E Creation](path/to/whole_chain_visualization.png)
+![Prompts for DALL·E Creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/b1e06bad-3688-4431-8b08-290ae929a107)
 
 ### 10_dall-e.py Script
 - **Purpose**: Utilizes the DALL·E 3 model to generate images based on the created prompts.
@@ -211,7 +205,7 @@ This project presents a comprehensive system for automating the creation of an e
   - Configuration for the illustration prompts file, OpenAI API key, output directory, and image size.
   - The script ensures that each prompt is effectively transformed into a visual representation by DALL·E 3.
 
-![Artworks Creation](path/to/whole_chain_visualization.png)
+![Artworks Creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/65b256fd-322a-40fe-b6fa-55eafa976386)
 
 ### 'Narration Creator' Custom GPT
 - **Role**: Develops a detailed and engaging narration script for the educational video series.
@@ -228,7 +222,7 @@ This project presents a comprehensive system for automating the creation of an e
   - **Impactful Conclusion**: The script concludes by emphasizing the relevance of the topics, leaving a lasting impact.
 - **Task Execution**: The model undertakes a structured approach to develop the narration, ensuring it aligns with the presentation's content, style, and educational goals.
 
-!['Narration Creator' Custom GPT](path/to/foundational_guide_visualization.png)
+!['Narration Creator' Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/968d4ad2-7fe6-4356-9295-beb4cf5cdb1c)
 
 ### Manual Presentation Creation
 - **Process**: 
@@ -236,7 +230,7 @@ This project presents a comprehensive system for automating the creation of an e
   - **Artwork Integration**: Artworks created by DALL·E based on the keywords and prompts are integrated into the presentation, enhancing visual appeal and reinforcing the educational content.
 - **Purpose**: To create a visually engaging and content-rich presentation that is ready for recording, aligning with the overall educational theme of the project.
 
-![Presentation Creation](path/to/foundational_guide_visualization.png)
+![Presentation Creation](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/6731fdda-99cb-4f1e-9ed4-0980864ef1d3)
 
 ### Final Recording and Editing
 - **Recording**:
@@ -246,7 +240,7 @@ This project presents a comprehensive system for automating the creation of an e
   - **DaVinci Resolve**: Post-recording, the video is edited using DaVinci Resolve, a professional video editing software. This step involves refining the video for quality, adding transitions, and ensuring synchronization of audio, visuals, and narration.
 - **Output**: The final product is a polished educational video, ready for distribution on platforms like YouTube, complete with a well-structured narrative, engaging visuals, and professional editing.
 
-![Final Recording and Editing Process](path/to/final_recording_visualization.png)
+![Final Recording and Editing Process](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/75b801cf-7ed2-4c3b-b101-97c66900b9f8)
 
 ## Goal
 The end goal of this project is to produce a series of educational videos, each topic building upon the previous, to create a comprehensive understanding of complex subjects. This automated system significantly enhances the efficiency of creating educational content, making it a valuable asset for educators and content creators.

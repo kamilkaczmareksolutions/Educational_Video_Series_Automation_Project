@@ -29,6 +29,7 @@ key_openai.txt
 key_youtube.txt
 processed_images.txt
 ggml-medium.bin
+processed_images.log
 
 # Exclude a specific .docx file
 data_for_knowledge_base/123.docx

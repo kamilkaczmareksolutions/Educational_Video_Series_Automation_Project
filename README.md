@@ -1,6 +1,7 @@
 # Educational Video Series Automation Project
 
-![Project Workflow Diagram](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/240f102b-a738-4003-85d3-47afa5fa7620)
+![Project Workflow Diagram](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/b65897b5-5658-476c-9665-2589f8520979)
+
 *Figure: High-level workflow diagram of the project.*
 
 ## Quick Overview
@@ -43,7 +44,7 @@ git clone [repository URL]
 
 4. **Acknowledgments**:
 - This project utilizes the SPR (Sparse Priming Representations) technique introduced by David Shapiro. [Learn more about SPR](https://github.com/daveshap/SparsePrimingRepresentations).
-- Transcriptions are accelerated using the Whisper solution proposed by user Const-me. [Learn more about Whisper](https://github.com/Const-me/Whisper). Be sure you have the `ggml-medium.bin` model, `Whisper.dll`, `main.exe` and `lz4.txt` for efficient processing. It should be clonned automatically by `git clone`.
+- Transcriptions are accelerated using the Whisper solution proposed by user Const-me. [Learn more about Whisper](https://github.com/Const-me/Whisper). Be sure you download the `ggml-medium.bin` model from [here](https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-medium.bin) and move it to main root. `Whisper.dll`, `main.exe` and `lz4.txt` should be clonned automatically by `git clone`.
 
 5. **Running the Scripts**:
 - You should definitely first get familiar with [Extended Documentation](./Extended-Documentation.md).
@@ -51,13 +52,16 @@ git clone [repository URL]
 - Customize the scripts and models according to your specific needs or contribute with your improvements.
 
 ## Screenshots
-![Initial Input to Foundational Guide Custom GPT](path/to/screenshot1.png)
+![Initial Input to Foundational Guide Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/5d82b344-8a13-427d-b206-667155651f4a)
+
 *Figure: Screenshot of initial input to 'Foundational Guide' Custom GPT.*
 
-![Intermediate Step Screenshot](path/to/screenshot2.png)
+![Presentation Logic Step Screenshot](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/8b4838a5-cfde-4b35-9384-6aee529b31af)
+
 *Figure: Screenshot of an intermediate step in the project.*
 
-![Final Presentation Slide](path/to/screenshot3.png)
+![Final Presentation Slide](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/e3429e6d-78b5-43d2-9a8c-30085aa77cbe)
+
 *Figure: Screenshot of a final presentation slide.*
 
 ## Contributing
