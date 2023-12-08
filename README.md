@@ -1,8 +1,7 @@
 # Educational Video Series Automation Project
 
-![Project Workflow Diagram](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/b65897b5-5658-476c-9665-2589f8520979)
-
-*Figure: Workflow diagram of the project.*
+#### Project Workflow Diagram
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/b65897b5-5658-476c-9665-2589f8520979" width="500">
 
 ## Quick Overview
 This repository contains a project designed to automate the creation of an educational video series. It integrates custom GPT models, Python scripts, and AI tools like DALL·E to develop a comprehensive understanding of complex topics.
@@ -52,17 +51,15 @@ git clone [repository URL]
 - Customize the scripts and models according to your specific needs or contribute with your improvements.
 
 ## Screenshots
-![Initial Input to Foundational Guide Custom GPT](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/5d82b344-8a13-427d-b206-667155651f4a)
 
-*Figure: Screenshot of initial input to 'Foundational Guide' Custom GPT.*
+#### Initial Input to 'Foundational Guide' Custom GPT
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/5d82b344-8a13-427d-b206-667155651f4a" width="500">
 
-![Presentation Logic Step Screenshot](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/8b4838a5-cfde-4b35-9384-6aee529b31af)
+#### 'Presentation Logic' Step Screenshot
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/8b4838a5-cfde-4b35-9384-6aee529b31af" width="500">
 
-*Figure: Screenshot of an intermediate step in the project.*
-
-![Final Presentation Slide](https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/e3429e6d-78b5-43d2-9a8c-30085aa77cbe)
-
-*Figure: Screenshot of a final presentation slide.*
+#### Final Presentation Slide
+<img src="https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project/assets/95218485/e3429e6d-78b5-43d2-9a8c-30085aa77cbe" width="500">
 
 ## Contributing
 Contributions to enhance and expand the project are welcome. You just need to create your own Custom GPTs (because there is need for constantly swapping files), or contact me for detailed prompts (can do this here: contact@kamilkaczmareksolutions.com).
