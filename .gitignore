@@ -1,0 +1,33 @@
+# Custom directories to exclude
+artworks/Basic_physical_quantities/
+artworks/Measurements/
+artworks/Observations/
+cleaned_sprs/Basic_physical_quantities/
+cleaned_sprs/Measurements/
+cleaned_sprs/Observations/
+data_for_knowledge_base/Basic_physical_quantities/
+data_for_knowledge_base/Measurements/
+data_for_knowledge_base/Observations/
+downloaded_audio/Basic_physical_quantities/
+downloaded_audio/Measurements/
+downloaded_audio/Observations/
+photos/
+photos_no_bg/
+sprs/Basic_physical_quantities/
+sprs/Measurements/
+sprs/Observations/
+transcripts/Basic_physical_quantities/
+transcripts/Measurements/
+transcripts/Observations/
+video_url_mappings/*.txt
+
+# Custom files to exclude
+11_remove_bg.py
+downloaded_files.txt
+illustration_prompts.txt
+key_openai.txt
+key_youtube.txt
+processed_images.txt
+
+# Exclude a specific .docx file
+data_for_knowledge_base/123.docx

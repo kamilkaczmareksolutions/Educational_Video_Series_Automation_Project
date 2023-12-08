@@ -1,0 +1,134 @@
+"Title: 'How object properties work: Observation',
+Content: '
+1. Observation's fundamental role.
+2. Sensory contributions to observation.
+3. Noticing details and characteristics.
+4. Differentiation based on observation.
+5. Observation's importance in understanding the world.';
+Title: 'How measurement works: Comparison in measurement',
+Content: '
+1. Basis of measurement in comparison.
+2. Standard units for length, volume, weight, time.
+3. Practical comparison examples in measurements.
+4. Accuracy in scientific and daily measurements.
+5. Standard units' significance in science and daily life.';
+Title: 'How classical mechanics works: Basic physical quantities',
+Content: '
+1. Distance, time, mass, force - their importance in physics.
+2. Measurement of distance and time.
+3. Mass vs. weight: a conceptual understanding.
+4. Role of force in physics.
+5. Interconnection of these quantities in physical descriptions.';
+Title: 'How atoms work: Basic physics principles related to atoms',
+Content: '
+1. Matter and energy as universal components.
+2. Atomic structure and forces.
+3. Electromagnetic and nuclear forces in atoms.
+4. Atomic behavior governed by these properties and forces.
+5. Overview of atomic and subatomic interactions.';
+Title: 'How molecules work: Atoms',
+Content: '
+1. Fundamental structure of atoms.
+2. Chemical bonding types in atoms.
+3. Electron arrangements in bonding.
+4. Simple molecular examples from atomic bonds.
+5. Atoms as matter's core components.';
+Title: 'How cells work: Molecules',
+Content: '
+1. Atoms as matter's building blocks.
+2. Atom bonding to form molecules.
+3. Essential organic molecules: carbohydrates, lipids, proteins, nucleic acids.
+4. Molecules in cell structure and processes.
+5. Molecule-cell interaction and collaboration.';
+ Title: 'How biological systems and organs work: Cells',
+Content: '
+1. Cells as life's basic units.
+2. Structure and function of typical cells.
+3. Cellular functions: respiration, protein synthesis, division.
+4. Formation of tissues from cell types.
+5. Organ and system formation from tissues.';
+'How observation and perception work: Biological systems and organs',
+Content: '
+1. Overview of biological systems and their interplay.
+2. Key sensory organs: eyes, ears, skin, tongue, nose.
+3. Functioning of each sensory organ.
+4. Nervous system's role in sensory information transmission.
+5. Brain's interpretation of sensory signals.';
+Title: 'How comparison and differentiation work: Observation and perception',
+Content: '
+1. Gathering information through observation.
+2. Perception's role in interpreting observations.
+3. Noticing differences and similarities.
+4. Using perception for evaluation and contrast.
+5. Link between observation, perception, and comparison.';
+'How quantity and measurement work: Comparison and differentiation',
+Content: '
+1. Basics of comparison: 'more', 'less', 'equal'.
+2. Real-life examples for visualizing comparison.
+3. Differentiation and identification of differences.
+4. Measurement as a quantification tool.
+5. Role of comparison and differentiation in counting and number use.';
+Title: 'How numbers work: Quantity and measurement',
+Content: '
+1. Concept of quantity and counting.
+2. Differentiating quantities: more, less, equal.
+3. Introduction to measurement using numbers.
+4. Development of numerical symbols and systems.
+5. Transition from abstract quantity to concrete numbers.';
+Title: 'How arithmetic works: Numbers',
+Content: '
+1. Definition and representation of numbers.
+2. Sequence and progression in counting numbers.
+3. Properties of numbers: ordering and grouping.
+4. Basic arithmetic operations with numbers.
+5. Practical examples of number operations.';
+Title: 'How basic algebra concepts work: Arithmetic',
+Content: '
+1. Defining and performing basic arithmetic operations.
+2. Carrying and borrowing in addition and subtraction.
+3. Multiplication as repeated addition and the inverse nature of division.
+4. Order of operations in arithmetic.
+5. Arithmetic as the foundation for advanced mathematics.';
+Title: 'How vectors and matrices work: Basic algebra concepts',
+Content: '
+1. Fundamentals of algebra: numbers, variables, operations.
+2. Equations and solving for unknown variables.
+3. Understanding vectors in the context of algebra.
+4. Overview of matrices as advanced algebraic structures.
+5. Algebraic operations in vectors and matrices.';
+Title: 'How linear algebra in the context of perceptrons works: Vectors and matrices',
+Content: '
+1. Definitions and representations of vectors.
+2. Vector operations: addition, subtraction, scalar multiplication.
+3. Introduction to matrices and their operations.
+4. Significance of matrix operations in linear algebra.
+5. Application in perceptrons: representing inputs, weights, outputs.';
+Title: 'How perceptrons work: Linear algebra in the context of perceptrons',
+Content: '
+1. Basics of linear algebra: vectors and matrices.
+2. Representation of data and weights in perceptrons using vectors.
+3. Matrix operations, particularly multiplication.
+4. Role of bias in perceptrons.
+5. Linear equations in perceptron decision-making.';
+Title: 'How neural networks work: Perceptrons',
+Content: '
+1. Concept and structure of the perceptron.
+2. Perceptron components: inputs, weights, bias, and activation function.
+3. Input processing and output generation in a perceptron.
+4. Weight and bias adjustment rules during training.
+5. Integration of perceptrons in larger neural networks.';
+Title: 'How deep learning works: Neural networks',
+Content: '
+1. Structure of neural networks - neurons, layers, and connections.
+2. Simulation of human brain neurons in these networks.
+3. Processing of inputs to outputs in neural networks.
+4. Training neural networks - adjusting connection weights.
+5. Simple neural network applications.';
+Title: 'How ChatGPT works: Deep learning',
+Content: '
+1. Introduction to Artificial Intelligence and Machine Learning, focusing on Deep Learning.
+2. Distinctions between Deep Learning and traditional Machine Learning.
+3. Fundamentals of Neural Networks, the core of deep learning.
+4. The process of learning from data in deep learning.
+5. Diverse applications of deep learning, with ChatGPT as an example.';
+Priority: 2.
