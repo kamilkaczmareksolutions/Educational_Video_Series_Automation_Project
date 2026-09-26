@@ -1,5 +1,5 @@
 pydub==0.25.1
 google-api-python-client==2.200.0
 halo==0.0.31
-openai==3.14.1
+openai==3.18.0
 requests==2.34.2
